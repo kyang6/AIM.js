@@ -1,5 +1,5 @@
 # AIM.js
-Automatically label objects within images on websites so visually impaired users can read whats in the images. Relies on the API: librarylyna.com/api/auto-image-map/ for object detection 
+Automatically label objects within images on websites so visually impaired users can feel whats in the images. Relies on the API: librarylyna.com/api/auto-image-map/ for object detection.
 
 ## How to Use
 - import AutoImageMaps.js 
@@ -18,6 +18,7 @@ document.onreadystatechange = () => {
 };
 ~~~~
 
-
+## Contact
+Constantly in development! If you find bugs please help out with a PR or email me: kevinyang.lyna@gmail.com
 
 Copyright: 2017 - Kevin Yang

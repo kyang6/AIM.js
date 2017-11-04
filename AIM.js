@@ -303,19 +303,3 @@ function generateImageMaps(selector) {
         });
     })();
 };
-
-
-// ----------------- Main ------------------ //
-// generateImageMaps('img');
-
-// When document is loaded make all image maps responsive
-// document.onreadystatechange = () => {
-//   if (document.readyState === 'complete') {
-//     generateImageMaps('img');
-//   }
-// };
-
-
-
-
-
