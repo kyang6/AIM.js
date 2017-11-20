@@ -298,7 +298,7 @@ function generateImageMaps(selector) {
     (self.addMaps = function () {
         self.selector.forEach(function (val) {
             var img = val;
-			var img_src = img.src;
+			var img_src = img.currentSrc;
             _automaticallyCreateLabels(img, img_src);
         });
     })();
